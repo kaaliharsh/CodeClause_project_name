@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    margin-bottom: 0%;
+  }
+  
+  .container {
+    margin-top: 100px;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  .timer-container,
+  .stopwatch-container {
+    margin-top: 50px;
+    color: white;
+  }
+  
+  .display {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #FC6600;
+  }
